@@ -31,16 +31,16 @@ public class PongPanel extends JPanel{
 		g.setColor(Color.WHITE);
 		g.fillRect(5, intPaddleY1, 10, 100 ); 
 		if(blnPaddle1Down){ // Translation movement of Paddle 1 using Boolean.
-			intPaddleY1 = intPaddleY1 + 20;
+			intPaddleY1 = intPaddleY1 + 40;
 		}
 		if(blnPaddle1Up){
-			intPaddleY1 = intPaddleY1 - 20;
+			intPaddleY1 = intPaddleY1 - 40;
 		}
 		if(intPaddleY1 < 0){ // Restrict Paddle1 Movement
-			intPaddleY1 = intPaddleY1 + 20;
+			intPaddleY1 = intPaddleY1 + 40;
 		}
 		if(intPaddleY1 > 620){
-			intPaddleY1 = intPaddleY1 - 20;
+			intPaddleY1 = intPaddleY1 - 40;
 		}
 		
 		// Paddle 2
