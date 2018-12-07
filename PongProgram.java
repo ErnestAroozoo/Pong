@@ -40,6 +40,7 @@ public class PongProgram implements ActionListener, KeyListener, MouseMotionList
 		//
 	}
 	
+	// This is an overridden method for MouseMotionListener
 	public void mouseMoved(MouseEvent evt){
 		thepanel.intPaddleY2 = evt.getY(); // Set object Y-Coordinate to Mouse Y-Coordinate
 	}
