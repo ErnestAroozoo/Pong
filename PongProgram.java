@@ -1,3 +1,6 @@
+// This is my first Swing animation game using KeyListener, MouseMotionListener, and ActionListener
+// Created on December 7, 2018
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
